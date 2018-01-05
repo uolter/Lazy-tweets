@@ -1,4 +1,4 @@
-# Lazy-tweets
+# Lazy tweets
 
 Simple program to show/clean up inactive twitter's friendship
 
@@ -19,7 +19,7 @@ An account is consider inactive when is not twitting since 300 days but you can 
     >> git clone https://github.com/uolter/Lazy-tweets.git
     >> cd Lazy-tweets
     >> go get .
-    >> go build -o lazytwitts
+    >> go build -o lazytweets
 
 ## Configuration
 
@@ -36,19 +36,19 @@ Edit the file and fill it with your [twitter configuration keys and access token
 ## Run the program
 
     >> # Show the help
-    >> ./lazytwitts --help
+    >> ./lazytweets --help
     
     >> # Get lazy friends
-    >> ./lazytwitts 
+    >> ./lazytweets 
     
     >> # Get inactive friends since the last 20 days
-    >> ./lazytwitts -inactive_after 20
+    >> ./lazytweets -inactive_after 20
     >> # Unfollow lazy friends
-    >> ././lazytwitts -unfollow
+    >> ./lazytweets -unfollow
 
 ## Options
 
-	Usage of ./lazytwitts:
+	Usage of ./lazytweets:
 	  -alsologtostderr
     	log to standard error as well as files
 	  -inactive_after int
@@ -62,7 +62,7 @@ Edit the file and fill it with your [twitter configuration keys and access token
 	  -stderrthreshold value
     	logs at or above this threshold go to stderr
 	  -unfollow
-    	Unfollow iniactive users.
+    	Unfollow inactive users.
 	  -user_count int
     	Users to fetch from twitter. (default 200)
 	  -v value

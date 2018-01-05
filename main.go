@@ -24,7 +24,7 @@ var p = log.Info
 func init() {
 	flag.IntVar(&inactive_after, "inactive_after", 300, "Inactieve after n days.")
 	flag.IntVar(&user_count, "user_count", 200, "Users to fetch from twitter.")
-	flag.BoolVar(&unfollow, "unfollow", false, "Unfollow iniactive users.")
+	flag.BoolVar(&unfollow, "unfollow", false, "Unfollow inactive users.")
 	flag.Lookup("logtostderr").Value.Set("true")
 
 	gotenv.Load()
