@@ -1,6 +1,8 @@
 # Lazy tweets
 
-Simple program to show/clean up inactive twitter's friendship
+Simple program to show/clean up inactive twitter's friendship.
+
+[![asciicast](https://asciinema.org/a/edYPz6LT3goQRPVwXyYjdcf7V.png)](https://asciinema.org/a/edYPz6LT3goQRPVwXyYjdcf7V)
 
 ## Overview 
 
@@ -15,7 +17,8 @@ An account is consider inactive when is not twitting since 300 days but you can 
 ## Installation
 
     >> cd $GOPATH/src
-    >> mkfir -p github.com/uolter
+    >> mkdir -p github.com/uolter
+    >> cd github.com/uolter
     >> git clone https://github.com/uolter/Lazy-tweets.git
     >> cd Lazy-tweets
     >> go get .
