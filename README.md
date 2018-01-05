@@ -26,7 +26,7 @@ An account is consider inactive when is not twitting since 300 days but you can 
 
 ## Configuration
 
-Create a file called **.env** to allow the program to load  loads environment variables.
+Create a file called **.env** to allows the program to load  loads environment variables.
 Edit the file and fill it with your [twitter configuration keys and access tokens](https://apps.twitter.com/).
 
 .env
