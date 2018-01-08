@@ -6,7 +6,7 @@ Simple program to show/clean up inactive twitter's friendship.
 
 ## Overview 
 
-This is a simple program written in golang that allow you to find out among your twitter "friends" who is inactive for a long time.
+This is a simple program written in golang that allows you to find out among your twitter "friends" who is inactive for a long time.
 An account is consider inactive when is not twitting since 300 days but you can change this value with something further or something closer.
 
 ## Prerequisites
