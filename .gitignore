@@ -15,3 +15,5 @@
 
 # environment file
 .env
+
+vendor/*/*
