@@ -48,12 +48,15 @@ Edit the file and fill it with your [twitter configuration keys and access token
     >> ./lazytweets -inactive_after 20
     >> # Unfollow lazy friends
     >> ./lazytweets -unfollow
+    >> ./lazytweets -exclude linux,ubuntu
 
 ## Options
 
 	Usage of ./lazytweets:
 	  -alsologtostderr
     	log to standard error as well as files
+      -exclude string
+        List of account (comma separated to exclude)
 	  -inactive_after int
     	Inactieve after n days. (default 300)
 	  -log_backtrace_at value
